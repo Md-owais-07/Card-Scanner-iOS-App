@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E944913A2C5C1EEF0067CD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9ED74442C59690E00A1E7A8 /* LaunchScreen.storyboard */; };
 		E9ED74372C59690D00A1E7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED74362C59690D00A1E7A8 /* AppDelegate.swift */; };
 		E9ED74392C59690D00A1E7A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED74382C59690D00A1E7A8 /* SceneDelegate.swift */; };
 		E9ED743B2C59690D00A1E7A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED743A2C59690D00A1E7A8 /* ViewController.swift */; };
@@ -14,7 +15,6 @@
 		E9ED74412C59690D00A1E7A8 /* Card_Scanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9ED743F2C59690D00A1E7A8 /* Card_Scanner.xcdatamodeld */; };
 		E9ED74432C59690E00A1E7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ED74422C59690E00A1E7A8 /* Assets.xcassets */; };
 		E9ED74462C59690E00A1E7A8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E9ED74452C59690E00A1E7A8 /* Base */; };
-		E9ED744F2C5A515800A1E7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9ED74442C59690E00A1E7A8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,7 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9ED74432C59690E00A1E7A8 /* Assets.xcassets in Resources */,
-				E9ED744F2C5A515800A1E7A8 /* LaunchScreen.storyboard in Resources */,
+				E944913A2C5C1EEF0067CD4A /* LaunchScreen.storyboard in Resources */,
 				E9ED74462C59690E00A1E7A8 /* Base in Resources */,
 				E9ED743E2C59690D00A1E7A8 /* Base in Resources */,
 			);

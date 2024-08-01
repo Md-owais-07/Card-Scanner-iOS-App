@@ -148,8 +148,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             cardData.address = address ?? "Address not found"
             cardData.website = website ?? "Website not found"
             
-            print("Demo")
-            
             do {
                 try context.save()
                 print("Card data saved successfully")
