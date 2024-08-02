@@ -35,34 +35,8 @@
                                     <constraint firstItem="xQw-X4-lwk" firstAttribute="leading" secondItem="YTU-50-2SX" secondAttribute="leading" constant="30" id="rWN-ZB-5gX"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDN-Bf-GMM">
-                                <rect key="frame" x="0.0" y="770" width="414" height="126"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIp-zD-Es1">
-                                        <rect key="frame" x="15" y="26" width="384" height="40"/>
-                                        <color key="backgroundColor" red="0.74509805439999999" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="f98-bM-gwb"/>
-                                        </constraints>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Scan Card">
-                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="16"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="scanCardButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lG1-g3-XF1"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="126" id="5iS-Ad-Dn0"/>
-                                    <constraint firstItem="sIp-zD-Es1" firstAttribute="leading" secondItem="ZDN-Bf-GMM" secondAttribute="leading" constant="15" id="TPG-Af-1UW"/>
-                                    <constraint firstAttribute="trailing" secondItem="sIp-zD-Es1" secondAttribute="trailing" constant="15" id="qlm-Pm-Jow"/>
-                                    <constraint firstAttribute="bottom" secondItem="sIp-zD-Es1" secondAttribute="bottom" constant="60" id="qpD-Jh-sRB"/>
-                                </constraints>
-                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZaW-b1-aCS">
-                                <rect key="frame" x="0.0" y="105" width="414" height="665"/>
+                                <rect key="frame" x="0.0" y="103" width="414" height="667"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="DXj-jc-wPZ" userLabel="Main Card View">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="322"/>
@@ -83,13 +57,13 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="mEp-HY-feB">
                                                             <rect key="frame" x="40" y="35" width="314" height="59"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NECK JOHN" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFE-lK-G34">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFE-lK-G34">
                                                                     <rect key="frame" x="0.0" y="0.0" width="314" height="28.5"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                                     <color key="textColor" red="0.59607845540000004" green="0.1215686351" blue="0.086274504660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senior Manager" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkw-2K-Le8">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designation" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkw-2K-Le8">
                                                                     <rect key="frame" x="0.0" y="30.5" width="314" height="28.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                     <color key="textColor" systemColor="systemGrayColor"/>
@@ -121,7 +95,7 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="d1E-it-aJf">
                                                             <rect key="frame" x="6" y="0.0" width="325" height="94"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+91 9565785465" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNh-ik-0Sr">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Number" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNh-ik-0Sr">
                                                                     <rect key="frame" x="0.0" y="0.0" width="325" height="19"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="19" id="brb-a1-dS6"/>
@@ -130,7 +104,7 @@
                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.google.com" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYc-cb-Rdt">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Website" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYc-cb-Rdt">
                                                                     <rect key="frame" x="0.0" y="27" width="325" height="13.5"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="13.5" id="OLy-TW-Tjv"/>
@@ -142,9 +116,8 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qvg-Xy-hLK">
                                                                     <rect key="frame" x="0.0" y="48.5" width="325" height="45.5"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6p-hX-oHx">
-                                                                            <rect key="frame" x="0.0" y="2" width="325" height="39.5"/>
-                                                                            <string key="text">12th main, HSR Layout, 12th main, HSR Layout, 12th main, HSR Layout, 12th main, HSR Layout, 12th main, HSR Layout, 12th main, HSR Layout </string>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6p-hX-oHx">
+                                                                            <rect key="frame" x="0.0" y="2" width="325" height="13.5"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
@@ -199,6 +172,32 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDN-Bf-GMM">
+                                <rect key="frame" x="0.0" y="770" width="414" height="126"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIp-zD-Es1">
+                                        <rect key="frame" x="15" y="26" width="384" height="40"/>
+                                        <color key="backgroundColor" red="0.74509805439999999" green="0.15294116739999999" blue="0.1058823466" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="f98-bM-gwb"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Scan Card">
+                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="16"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="scanCardButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lG1-g3-XF1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="5iS-Ad-Dn0"/>
+                                    <constraint firstItem="sIp-zD-Es1" firstAttribute="leading" secondItem="ZDN-Bf-GMM" secondAttribute="leading" constant="15" id="TPG-Af-1UW"/>
+                                    <constraint firstAttribute="trailing" secondItem="sIp-zD-Es1" secondAttribute="trailing" constant="15" id="qlm-Pm-Jow"/>
+                                    <constraint firstAttribute="bottom" secondItem="sIp-zD-Es1" secondAttribute="bottom" constant="60" id="qpD-Jh-sRB"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -207,7 +206,7 @@
                             <constraint firstItem="ZaW-b1-aCS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EKc-dl-EXb"/>
                             <constraint firstItem="YTU-50-2SX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gu5-Cj-YeM"/>
                             <constraint firstItem="YTU-50-2SX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="TuM-fw-05s"/>
-                            <constraint firstItem="ZaW-b1-aCS" firstAttribute="top" secondItem="YTU-50-2SX" secondAttribute="bottom" constant="10" id="W3l-5v-Nye"/>
+                            <constraint firstItem="ZaW-b1-aCS" firstAttribute="top" secondItem="YTU-50-2SX" secondAttribute="bottom" constant="8" id="W3l-5v-Nye"/>
                             <constraint firstItem="ZDN-Bf-GMM" firstAttribute="top" secondItem="ZaW-b1-aCS" secondAttribute="bottom" id="Wrd-Q5-ak8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZaW-b1-aCS" secondAttribute="trailing" id="Zgz-Wg-cZK"/>
                             <constraint firstAttribute="trailing" secondItem="ZDN-Bf-GMM" secondAttribute="trailing" id="huc-l0-7L3"/>
@@ -240,7 +239,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
