@@ -1,7 +1,7 @@
 Card Scanner iOS App
 
 Overview
-The Card Scanner iOS App is a powerful application designed to streamline the process of digitizing and managing business cards. Built with Swift and leveraging Core Data for local storage, the app utilizes OCR (Optical Character Recognition) technology to extract text from card images, making it easy to store and retrieve contact information.
+The Card Scanner iOS App is a application designed to streamline the process of digitizing and managing business cards. Built with Swift, UIKit and leveraging Core Data for local storage, the app utilizes OCR (Optical Character Recognition) technology to extract text from card images, making it easy to store and retrieve contact information.
 
 Features
 OCR Technology: Extracts text from images of business cards.
