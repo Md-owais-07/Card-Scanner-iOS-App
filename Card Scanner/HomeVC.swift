@@ -9,8 +9,9 @@ import UIKit
 import AVFoundation
 import Vision
 import CoreData
+//import MLKitTextRecognition
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class HomeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var cardView: UIView!

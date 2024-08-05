@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E93634AE2C60BF7C008ABEDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9ED743C2C59690D00A1E7A8 /* Main.storyboard */; };
 		E944913A2C5C1EEF0067CD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9ED74442C59690E00A1E7A8 /* LaunchScreen.storyboard */; };
 		E9ED74372C59690D00A1E7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED74362C59690D00A1E7A8 /* AppDelegate.swift */; };
 		E9ED74392C59690D00A1E7A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED74382C59690D00A1E7A8 /* SceneDelegate.swift */; };
-		E9ED743B2C59690D00A1E7A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED743A2C59690D00A1E7A8 /* ViewController.swift */; };
-		E9ED743E2C59690D00A1E7A8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E9ED743D2C59690D00A1E7A8 /* Base */; };
+		E9ED743B2C59690D00A1E7A8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED743A2C59690D00A1E7A8 /* HomeVC.swift */; };
 		E9ED74412C59690D00A1E7A8 /* Card_Scanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9ED743F2C59690D00A1E7A8 /* Card_Scanner.xcdatamodeld */; };
 		E9ED74432C59690E00A1E7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ED74422C59690E00A1E7A8 /* Assets.xcassets */; };
 		E9ED74462C59690E00A1E7A8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E9ED74452C59690E00A1E7A8 /* Base */; };
@@ -21,7 +21,7 @@
 		E9ED74332C59690D00A1E7A8 /* Card Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9ED74362C59690D00A1E7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9ED74382C59690D00A1E7A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9ED743A2C59690D00A1E7A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9ED743A2C59690D00A1E7A8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		E9ED743D2C59690D00A1E7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9ED74402C59690D00A1E7A8 /* Card_Scanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Card_Scanner.xcdatamodel; sourceTree = "<group>"; };
 		E9ED74422C59690E00A1E7A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			children = (
 				E9ED74362C59690D00A1E7A8 /* AppDelegate.swift */,
 				E9ED74382C59690D00A1E7A8 /* SceneDelegate.swift */,
-				E9ED743A2C59690D00A1E7A8 /* ViewController.swift */,
+				E9ED743A2C59690D00A1E7A8 /* HomeVC.swift */,
 				E9ED743C2C59690D00A1E7A8 /* Main.storyboard */,
 				E9ED74422C59690E00A1E7A8 /* Assets.xcassets */,
 				E9ED74442C59690E00A1E7A8 /* LaunchScreen.storyboard */,
@@ -132,7 +132,7 @@
 				E9ED74432C59690E00A1E7A8 /* Assets.xcassets in Resources */,
 				E944913A2C5C1EEF0067CD4A /* LaunchScreen.storyboard in Resources */,
 				E9ED74462C59690E00A1E7A8 /* Base in Resources */,
-				E9ED743E2C59690D00A1E7A8 /* Base in Resources */,
+				E93634AE2C60BF7C008ABEDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9ED74412C59690D00A1E7A8 /* Card_Scanner.xcdatamodeld in Sources */,
-				E9ED743B2C59690D00A1E7A8 /* ViewController.swift in Sources */,
+				E9ED743B2C59690D00A1E7A8 /* HomeVC.swift in Sources */,
 				E9ED74372C59690D00A1E7A8 /* AppDelegate.swift in Sources */,
 				E9ED74392C59690D00A1E7A8 /* SceneDelegate.swift in Sources */,
 			);
@@ -209,7 +209,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -224,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -272,7 +272,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -281,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -300,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4NP4L6636N;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Card Scanner/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Card Scanner";
@@ -308,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4NP4L6636N;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Card Scanner/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Card Scanner";
@@ -342,6 +345,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
