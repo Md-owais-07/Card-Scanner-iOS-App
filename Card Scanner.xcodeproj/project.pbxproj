@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005A639C10E659D0CBDA47B6 /* Pods_Card_Scanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5A71729D4AD20C79993536 /* Pods_Card_Scanner.framework */; };
+		E924D7122C6117B2005756C2 /* CardOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D7112C6117B2005756C2 /* CardOverlayView.swift */; };
+		E924D7152C612519005756C2 /* CardTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D7132C612519005756C2 /* CardTVC.swift */; };
+		E924D7162C612519005756C2 /* CardTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E924D7142C612519005756C2 /* CardTVC.xib */; };
+		E924D71B2C623957005756C2 /* Card+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D7192C623957005756C2 /* Card+CoreDataClass.swift */; };
+		E924D71C2C623957005756C2 /* Card+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924D71A2C623957005756C2 /* Card+CoreDataProperties.swift */; };
 		E93634AE2C60BF7C008ABEDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9ED743C2C59690D00A1E7A8 /* Main.storyboard */; };
+		E93634B02C60C2E5008ABEDD /* CardDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93634AF2C60C2E5008ABEDD /* CardDataModel.swift */; };
 		E944913A2C5C1EEF0067CD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9ED74442C59690E00A1E7A8 /* LaunchScreen.storyboard */; };
 		E9ED74372C59690D00A1E7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED74362C59690D00A1E7A8 /* AppDelegate.swift */; };
 		E9ED74392C59690D00A1E7A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ED74382C59690D00A1E7A8 /* SceneDelegate.swift */; };
@@ -18,6 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49F1E4CFC7D8436733B1FCAD /* Pods-Card Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Scanner.release.xcconfig"; path = "Target Support Files/Pods-Card Scanner/Pods-Card Scanner.release.xcconfig"; sourceTree = "<group>"; };
+		BEC79D1174FA63130253A555 /* Pods-Card Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Scanner.debug.xcconfig"; path = "Target Support Files/Pods-Card Scanner/Pods-Card Scanner.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5A71729D4AD20C79993536 /* Pods_Card_Scanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Card_Scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E924D7112C6117B2005756C2 /* CardOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOverlayView.swift; sourceTree = "<group>"; };
+		E924D7132C612519005756C2 /* CardTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTVC.swift; sourceTree = "<group>"; };
+		E924D7142C612519005756C2 /* CardTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTVC.xib; sourceTree = "<group>"; };
+		E924D7192C623957005756C2 /* Card+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E924D71A2C623957005756C2 /* Card+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E93634AF2C60C2E5008ABEDD /* CardDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDataModel.swift; sourceTree = "<group>"; };
 		E9ED74332C59690D00A1E7A8 /* Card Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9ED74362C59690D00A1E7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9ED74382C59690D00A1E7A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,17 +50,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005A639C10E659D0CBDA47B6 /* Pods_Card_Scanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CECD27D54AB0756A906BABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF5A71729D4AD20C79993536 /* Pods_Card_Scanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9716BC985C70A44A2778920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEC79D1174FA63130253A555 /* Pods-Card Scanner.debug.xcconfig */,
+				49F1E4CFC7D8436733B1FCAD /* Pods-Card Scanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E9ED742A2C59690D00A1E7A8 = {
 			isa = PBXGroup;
 			children = (
 				E9ED74352C59690D00A1E7A8 /* Card Scanner */,
 				E9ED74342C59690D00A1E7A8 /* Products */,
+				C9716BC985C70A44A2778920 /* Pods */,
+				2CECD27D54AB0756A906BABD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,10 +95,16 @@
 		E9ED74352C59690D00A1E7A8 /* Card Scanner */ = {
 			isa = PBXGroup;
 			children = (
+				E924D7192C623957005756C2 /* Card+CoreDataClass.swift */,
+				E924D71A2C623957005756C2 /* Card+CoreDataProperties.swift */,
 				E9ED74362C59690D00A1E7A8 /* AppDelegate.swift */,
 				E9ED74382C59690D00A1E7A8 /* SceneDelegate.swift */,
 				E9ED743A2C59690D00A1E7A8 /* HomeVC.swift */,
+				E924D7112C6117B2005756C2 /* CardOverlayView.swift */,
+				E93634AF2C60C2E5008ABEDD /* CardDataModel.swift */,
+				E924D7132C612519005756C2 /* CardTVC.swift */,
 				E9ED743C2C59690D00A1E7A8 /* Main.storyboard */,
+				E924D7142C612519005756C2 /* CardTVC.xib */,
 				E9ED74422C59690E00A1E7A8 /* Assets.xcassets */,
 				E9ED74442C59690E00A1E7A8 /* LaunchScreen.storyboard */,
 				E9ED74472C59690E00A1E7A8 /* Info.plist */,
@@ -78,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9ED744A2C59690E00A1E7A8 /* Build configuration list for PBXNativeTarget "Card Scanner" */;
 			buildPhases = (
+				20DEF8387EAAFFF99AC28522 /* [CP] Check Pods Manifest.lock */,
 				E9ED742F2C59690D00A1E7A8 /* Sources */,
 				E9ED74302C59690D00A1E7A8 /* Frameworks */,
 				E9ED74312C59690D00A1E7A8 /* Resources */,
+				E817B4E6E6D14D3A02C62C80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,19 +177,67 @@
 				E944913A2C5C1EEF0067CD4A /* LaunchScreen.storyboard in Resources */,
 				E9ED74462C59690E00A1E7A8 /* Base in Resources */,
 				E93634AE2C60BF7C008ABEDD /* Main.storyboard in Resources */,
+				E924D7162C612519005756C2 /* CardTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20DEF8387EAAFFF99AC28522 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Card Scanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E817B4E6E6D14D3A02C62C80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Card Scanner/Pods-Card Scanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Card Scanner/Pods-Card Scanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Card Scanner/Pods-Card Scanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9ED742F2C59690D00A1E7A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E924D7122C6117B2005756C2 /* CardOverlayView.swift in Sources */,
 				E9ED74412C59690D00A1E7A8 /* Card_Scanner.xcdatamodeld in Sources */,
 				E9ED743B2C59690D00A1E7A8 /* HomeVC.swift in Sources */,
 				E9ED74372C59690D00A1E7A8 /* AppDelegate.swift in Sources */,
+				E93634B02C60C2E5008ABEDD /* CardDataModel.swift in Sources */,
+				E924D7152C612519005756C2 /* CardTVC.swift in Sources */,
+				E924D71B2C623957005756C2 /* Card+CoreDataClass.swift in Sources */,
+				E924D71C2C623957005756C2 /* Card+CoreDataProperties.swift in Sources */,
 				E9ED74392C59690D00A1E7A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +385,7 @@
 		};
 		E9ED744B2C59690E00A1E7A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC79D1174FA63130253A555 /* Pods-Card Scanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,6 +422,7 @@
 		};
 		E9ED744C2C59690E00A1E7A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F1E4CFC7D8436733B1FCAD /* Pods-Card Scanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

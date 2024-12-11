@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Card" representedClassName="Card" syncable="YES" codeGenerationType="class">
-        <attribute name="address" optional="YES" attributeType="String"/>
-        <attribute name="designation" optional="YES" attributeType="String"/>
-        <attribute name="mobilenumber" optional="YES" attributeType="String"/>
-        <attribute name="name" optional="YES" attributeType="String"/>
-        <attribute name="website" optional="YES" attributeType="String"/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23G80" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Card" representedClassName="Card" syncable="YES">
+        <attribute name="cdAddress" optional="YES" attributeType="String"/>
+        <attribute name="cdCompany" optional="YES" attributeType="String"/>
+        <attribute name="cdDesignation" optional="YES" attributeType="String"/>
+        <attribute name="cdEmailAddress" optional="YES" attributeType="String"/>
+        <attribute name="cdMobilenumber" optional="YES" attributeType="String"/>
+        <attribute name="cdName" optional="YES" attributeType="String"/>
+        <attribute name="cdOthers" optional="YES" attributeType="String"/>
+        <attribute name="cdWebsite" optional="YES" attributeType="String"/>
+        <attribute name="data" optional="YES" attributeType="Binary"/>
     </entity>
 </model>
